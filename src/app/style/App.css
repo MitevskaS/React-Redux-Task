@@ -1,0 +1,66 @@
+form {
+  display: flex;
+  margin-top: 3em !important;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+  padding-top: 1em;
+}
+
+li {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+li > span {
+  word-break: break-all;
+}
+
+li > span, form > textarea {
+  width: 94%;
+}
+
+li > button {
+  align-self: center;
+  max-height: 25px;
+  padding: 5px;
+  border: none;
+  background-color: #d63031;
+  color: white;
+}
+
+form > button {
+  background-color: #00b894;
+  border: none;
+  color: white;
+  padding: 7px;
+}
+
+form > textarea {
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  width: 60%;
+  margin: auto;
+}
+
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  margin-top: 1em;
+}
+
+.message {
+  text-align: center;
+}
